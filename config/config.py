@@ -6,8 +6,8 @@ load_dotenv()
 que = {}
 admins = {}
 
-SESSION_NAME = getenv("session_name", "BACdw678eyTnXDgl5UYxRzX_2SueNhGnCqrGKdt-iUqnCTysZubIPOlGXK-KTDlKabUI55vrnSz2ehEc3iRNktXzzTlyAhAwnZ3RKpPE7CWzOq4OnlH-2R7Tk91lWsG9SwXbO8Dg9Tzu2EB3pO26BgVZ35vR6353t2lKnsrS3K5uVKIgob3xwf-wi3rbT63NvxLj7Sb7eT2ccHoTYqG5vFc8orNDEt9RfLqULWELcLCqYEswvTkmwbPXOmRMlsjFDFhhC1ckXlzWLS_SybZhedUanStX3Rh1pNJluK_ov8WphsBlDKc8uLiHtdOGfvcdXNxPZyxHKfkE4VGZwyAXv_shAAAAAVHgN2AA")
-API_ID = int(getenv("api_id", "27424907"))
-API_HASH = getenv("api_hash", "0383f79be1b5d77b5b7a1b9d8359588f")
-CHANNEL_ID = getenv("channel_id", "-524202205")
+SESSION_NAME = getenv("session_name", "BACGr1dXj2OY_Hymmbrv8-MTMOTqqiD1SDG0JiXwTAwAiAXPJ_OHO-0nGorgmeIy2JwRLdBuDHvgt3hJvu0x4t008W0vLUeE6Ry5F2Q803-OhMmnOyN_Tc1UG_jTpfTI5BNSV-puhcoIkmhMV61rD2WcUfkRE65ULVcGTcFqsG3o8gH0TUgIXv4gkbPGtQ6qfY1-rH57FA1_43lmd1RBYZ3hScVPGmqu4FZ5zhO2mi4tkZa_8yy9l8i8c0rLN6FOKt-CZKMetGyJ8ihGEgaOE0Jjb5651exR8kB0e6cgqJI0AVSDKqmgiTvwTmiGlQIPdhAWXPKr34WpqsTQbulCtSz3UhAOHgA")
+API_ID = int(getenv("api_id", "9316256"))
+API_HASH = getenv("api_hash", "5a8a277605c3038129c536a9e79cd761")
+CHANNEL_ID = getenv("channel_id", "-687819550")
 last_messages_amount = 90
