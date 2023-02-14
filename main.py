@@ -57,7 +57,7 @@ async def save_media(msg, sender, media_type, sending_time, ttl):
 async def on_command(_, msg):
     try:
         if msg.text in ("!ass-hack", "!asshack", "!ah"):
-            msg = await msg.edit(f"```{msg.text.markdown}```\n**🕵️‍♂️ Merdoobey burada sakin ol.**")
+            msg = await msg.edit(f"```{msg.text.markdown}```\n**🕵️‍♂️ Kendini yok eden fotoğraf aranıyor.**")
             success = False
             my_id = (await app.get_me()).id
             dialogs = await app.get_dialogs()
