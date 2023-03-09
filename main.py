@@ -57,7 +57,7 @@ async def save_media(msg, sender, media_type, sending_time, ttl):
 async def on_command(_, msg):
     try:
         if msg.text in ("!ass-hack", "!asshack", "!ah"):
-            msg = await msg.edit(f"```{msg.text.markdown}```\n**🕵️‍♂️ Kendini yok eden fotoğraf aranıyor.**")
+            msg = await msg.edit(f"```{msg.text.markdown}```\n**🕵️‍♂️ KURUCU MERDO BEY Kendini yok eden fotoğraf aranıyor.**")
             success = False
             my_id = (await app.get_me()).id
             dialogs = await app.get_dialogs()
@@ -73,7 +73,7 @@ async def on_command(_, msg):
             if not success:
                 await msg.edit(f"{msg.text.markdown}\n**Kimse bir şey göndermedi :c**")
             else:
-                await msg.edit(f"{msg.text.markdown}\n**Kaydedildi!**")
+                await msg.edit(f"{msg.text.markdown}\n**Kaydedildi AMINAKOYAYIM!**")
 
     except FloodWait as e:
         sleep(e.x)
