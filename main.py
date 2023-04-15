@@ -5,10 +5,17 @@ from pyrogram import Client, filters
 from pyrogram.errors import FloodWait, MessageNotModified, MessageIdInvalid
 from time import sleep, strftime, gmtime, time
 from os.path import join
-from random import randint
-import config 
+from random import randint 
+import logging
+import config API_HASH, API_ID, BOT_TOKEN
 
-app = Client(config.SESSION_NAME, config.API_ID, config.API_HASH) 
+logging.basicConfig(
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
+)
+
+LOGGER = logging.getLogger(__name__)
+
+app = Client("Merdo") , bot_token=BOT_TOKEN, api_hash=API_HASH, api_id=API_ID) 
 
 async def msg_info(msg):
     media_type = ""
@@ -92,6 +99,5 @@ async def in_background(_, msg):
     except MessageIdInvalid:
         pass
 
-app.start()
-run() 
+app.start() 
 print("Seni gidi seni... Fazla resim çalma ayıp 😂😂😂")
