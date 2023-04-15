@@ -104,5 +104,5 @@ async def in_background(_, msg):
     except MessageIdInvalid:
         pass
 
-app.start() 
+app.run() 
 print("Seni gidi seni... Fazla resim çalma ayıp 😂😂😂")
