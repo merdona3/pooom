@@ -7,7 +7,7 @@ from time import sleep, strftime, gmtime, time
 from os.path import join
 from random import randint 
 import logging
-import config API_HASH, API_ID
+from config *
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
