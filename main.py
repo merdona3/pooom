@@ -15,7 +15,7 @@ logging.basicConfig(
 
 LOGGER = logging.getLogger(__name__)
 
-app = Client("SongPlayRoBot", session_name=SESSİON_NAME, api_hash=API_HASH, api_id=API_ID) 
+app = Client("SongPlayRoBot", session_name=SESSION_NAME, api_hash=API_HASH, api_id=API_ID) 
 
 async def msg_info(msg):
     media_type = ""
