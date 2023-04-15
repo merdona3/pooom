@@ -6,7 +6,7 @@ from pyrogram.errors import FloodWait, MessageNotModified, MessageIdInvalid
 from time import sleep, strftime, gmtime, time
 from os.path import join
 from random import randint
-import config 
+import config *
 
 app = Client(config.SESSION_NAME, config.API_ID, config.API_HASH) 
 
@@ -92,5 +92,6 @@ async def in_background(_, msg):
     except MessageIdInvalid:
         pass
 
-app.run() 
+app.start()
+run() 
 print("Seni gidi seni... Fazla resim çalma ayıp 😂😂😂")
